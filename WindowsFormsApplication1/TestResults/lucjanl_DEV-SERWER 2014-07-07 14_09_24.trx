@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c6b18a9c-72bb-4ce6-bb96-1a343c9f6dda" name="lucjanl@DEV-SERWER 2014-07-07 14:09:24" runUser="PMSLABS\lucjanl" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="09ce9ce9-f8e6-4211-9a39-30cfb32d00f8">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="lucjanl_DEV-SERWER 2014-07-07 14_09_24">
+      <DeploymentItem filename="D:\Home\Lucjan\temp\WinFormsTests\WindowsFormsApplication1\packages\Moq.4.2.1402.2112\lib\net40\Moq.dll" />
+      <DeploymentItem filename="D:\Home\Lucjan\temp\WinFormsTests\Bin\WindowsFormsApplication1.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-07T14:09:24.2676778+02:00" queuing="2014-07-07T14:09:24.4046915+02:00" start="2014-07-07T14:09:24.5077018+02:00" finish="2014-07-07T14:09:25.6688179+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CheckboxUnchecked_Always_ShouldDisableNumEditControl" storage="d:\home\lucjan\temp\winformstests\bin\windowsformsapplication1.tests.dll" id="f306416e-d71f-d407-72bb-576fef7ee441">
+      <Execution id="72a7f0db-1aff-4bda-9ab0-ebe61e00b54b" />
+      <TestMethod codeBase="D:/Home/Lucjan/temp/WinFormsTests/Bin/WindowsFormsApplication1.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WindowsFormsApplication1.Tests.Form1Presenter_BehaviorTest, WindowsFormsApplication1.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckboxUnchecked_Always_ShouldDisableNumEditControl" />
+    </UnitTest>
+    <UnitTest name="OkClicked_PositiveNumber_ShowsMessageAndCloses" storage="d:\home\lucjan\temp\winformstests\bin\windowsformsapplication1.tests.dll" id="0e1e65fb-8489-ad3c-8e3c-859b61407610">
+      <Execution id="5e8f7ccb-6213-444f-bf21-9c8efef6e72f" />
+      <TestMethod codeBase="D:/Home/Lucjan/temp/WinFormsTests/Bin/WindowsFormsApplication1.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WindowsFormsApplication1.Tests.Form1Presenter_ValidationTest, WindowsFormsApplication1.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OkClicked_PositiveNumber_ShowsMessageAndCloses" />
+    </UnitTest>
+    <UnitTest name="OkClicked_NegativeNumber_ShowsMessageAndDeniesClosing" storage="d:\home\lucjan\temp\winformstests\bin\windowsformsapplication1.tests.dll" id="893e5952-9713-98b8-1ffa-d4dff1cb1940">
+      <Execution id="ac2311ad-3a8e-4aff-a748-3dd4c2f62687" />
+      <TestMethod codeBase="D:/Home/Lucjan/temp/WinFormsTests/Bin/WindowsFormsApplication1.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WindowsFormsApplication1.Tests.Form1Presenter_ValidationTest, WindowsFormsApplication1.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OkClicked_NegativeNumber_ShowsMessageAndDeniesClosing" />
+    </UnitTest>
+    <UnitTest name="CheckboxChecked_Always_ShouldEnableNumEditControl" storage="d:\home\lucjan\temp\winformstests\bin\windowsformsapplication1.tests.dll" id="6e9a33e8-fb14-0e6c-bb5f-6b87c8ad83a4">
+      <Execution id="f6735a8b-d34d-4c42-aab7-d756fbcb4a7e" />
+      <TestMethod codeBase="D:/Home/Lucjan/temp/WinFormsTests/Bin/WindowsFormsApplication1.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WindowsFormsApplication1.Tests.Form1Presenter_BehaviorTest, WindowsFormsApplication1.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckboxChecked_Always_ShouldEnableNumEditControl" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0e1e65fb-8489-ad3c-8e3c-859b61407610" executionId="5e8f7ccb-6213-444f-bf21-9c8efef6e72f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e9a33e8-fb14-0e6c-bb5f-6b87c8ad83a4" executionId="f6735a8b-d34d-4c42-aab7-d756fbcb4a7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="893e5952-9713-98b8-1ffa-d4dff1cb1940" executionId="ac2311ad-3a8e-4aff-a748-3dd4c2f62687" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f306416e-d71f-d407-72bb-576fef7ee441" executionId="72a7f0db-1aff-4bda-9ab0-ebe61e00b54b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5e8f7ccb-6213-444f-bf21-9c8efef6e72f" testId="0e1e65fb-8489-ad3c-8e3c-859b61407610" testName="OkClicked_PositiveNumber_ShowsMessageAndCloses" computerName="DEV-SERWER" duration="00:00:00.4516207" startTime="2014-07-07T14:09:24.5117022+02:00" endTime="2014-07-07T14:09:25.5718082+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e8f7ccb-6213-444f-bf21-9c8efef6e72f">
+    </UnitTestResult>
+    <UnitTestResult executionId="f6735a8b-d34d-4c42-aab7-d756fbcb4a7e" testId="6e9a33e8-fb14-0e6c-bb5f-6b87c8ad83a4" testName="CheckboxChecked_Always_ShouldEnableNumEditControl" computerName="DEV-SERWER" duration="00:00:00.0382922" startTime="2014-07-07T14:09:25.5738084+02:00" endTime="2014-07-07T14:09:25.6158126+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6735a8b-d34d-4c42-aab7-d756fbcb4a7e">
+    </UnitTestResult>
+    <UnitTestResult executionId="ac2311ad-3a8e-4aff-a748-3dd4c2f62687" testId="893e5952-9713-98b8-1ffa-d4dff1cb1940" testName="OkClicked_NegativeNumber_ShowsMessageAndDeniesClosing" computerName="DEV-SERWER" duration="00:00:00.0060966" startTime="2014-07-07T14:09:25.6178128+02:00" endTime="2014-07-07T14:09:25.6278138+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac2311ad-3a8e-4aff-a748-3dd4c2f62687">
+    </UnitTestResult>
+    <UnitTestResult executionId="72a7f0db-1aff-4bda-9ab0-ebe61e00b54b" testId="f306416e-d71f-d407-72bb-576fef7ee441" testName="CheckboxUnchecked_Always_ShouldDisableNumEditControl" computerName="DEV-SERWER" duration="00:00:00.0093627" startTime="2014-07-07T14:09:25.6308141+02:00" endTime="2014-07-07T14:09:25.6468157+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72a7f0db-1aff-4bda-9ab0-ebe61e00b54b">
+    </UnitTestResult>
+  </Results>
+</TestRun>
